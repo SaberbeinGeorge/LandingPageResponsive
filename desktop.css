@@ -22,8 +22,6 @@
     .main-section2 {
         background-image: url(https://static.platzi.com/mf-landings/image/main-promo-art-09482af5fb4af9871b8b8af4736b4c55.png);
         background-repeat: no-repeat;
-        background-size: cover;
-         
-    }
-    
+        background-size: cover; 
+    }  
 }
