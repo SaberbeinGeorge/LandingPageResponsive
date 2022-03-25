@@ -1,0 +1,383 @@
+:root {
+    --primary-color:#003476;
+    --primaryDark-color: #121f3d;
+    --secundary-color: #98ca3f;
+    --tertiary-color: #becde3;
+    --font-color: #fff;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-width: 32rem;
+    height: 5.1rem;
+}
+header {
+    background-color: var(--primary-color);
+}
+.navar1 {
+    display: flex;
+    /* margin-left: 1rem; 800px */
+}
+.navar2 {
+    display: flex;
+        /* margin-right: 1rem; 800px */
+}
+.ps {
+    font-size: 1.4rem;
+    margin-right: 1.2rem;
+    color: var(--font-color)
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+main {
+    background-image: url(https://static.platzi.com/mf-landings/image/hero-promo-bg-383b90226b77fc68e192b6f08ef88b0e.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* background-color: var(--primaryDark-color); */
+}
+
+.main-section1 {
+    background-image: url(https://static.platzi.com/mf-landings/image/hero-promo-bg-383b90226b77fc68e192b6f08ef88b0e.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    min-width: 32rem;
+    text-align: center; 
+}
+.hoja {
+    margin: 1rem 2rem;
+}
+.hoja_h1 {
+    
+    font-size: 3rem;
+    color: var(--font-color);
+    padding-bottom: 1.8rem;
+}
+.hoja_h2 {
+    
+    color: var(--tertiary-color);
+    font-size: 1.4rem;
+    padding-bottom: 3rem;
+}
+.hoja_a {
+    
+    font-size: 1.4rem;
+    padding: 0.9rem 1.6rem;
+    border: 0.1rem solid var(--secundary-color);
+    border-radius: 0.8rem;
+    color: #121f3d;
+    background-color: var(--secundary-color);
+    font-weight: 700;
+    text-decoration: none;
+    width: 15.8rem;
+}
+
+.main-section2{
+    width: 100%;
+    min-width: 32rem;
+    padding: 1rem;
+    height: auto;
+}
+.section2 {
+    display: grid;
+    grid-template-columns: minmax(auto, 1024px);
+    grid-template-rows: auto auto;
+    color: var(--font-color);
+}
+.section2_title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.92;
+}
+.section2_boxes {
+    display: grid;
+    grid-row-gap: 1.2rem;
+    
+}
+.box {
+    
+    font-size: 1.7rem;
+    line-height: 1.17;
+    padding: 1.8rem 1.6rem;
+    color: #fff;
+    border-radius: 0.6rem;
+    background-color: orange;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;  
+}
+.box1 {
+    background-image: url(https://static.platzi.com/media/categories-banner/desarrolloweb.jpg);  
+}
+.box2 {
+    background-image: url(https://static.platzi.com/media/categories-banner/marketing.jpg);
+}
+.box3 {
+    background-image: url(https://static.platzi.com/media/categories-banner/Categoria-Contenido-Digital.png);
+}
+.box4 {
+    background-image: url(https://static.platzi.com/media/categories-banner/Startups-banner.png);
+}
+.box5 {
+    background-image: url(https://static.platzi.com/media/categories-banner/diseno.jpg);
+}
+.box6 {
+    background-image: url(https://static.platzi.com/media/categories-banner/negocios.jpg);
+}
+.box7 {
+    background-image: url(https://static.platzi.com/media/categories-banner/crecimiento.jpg);
+}
+.box8 {
+    background-image: url(https://static.platzi.com/media/categories-banner/English-banner.png);
+}
+.box9 {
+    background-image: url(https://static.platzi.com/media/categories-banner/eefd7528-2991-4bc7-ae96-6eb8b682b352.png);
+}
+
+footer {
+    width: 100%;
+    min-width: 32rem;
+    height: auto;
+    padding-top: 1.6rem;
+}
+footer {
+    background-color: #03091e;
+    color: var(--font-color);
+}
+.footerContainer-up {
+    padding: 0 0.5rem;
+}
+.footerContainer-up_child {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.foot-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.foot-logo p{
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 0 0.8rem 1.6rem;
+}
+.foot-social {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 1rem;
+}
+.foot-social span {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+}
+.foot-social figure {
+    background-color: var(--font-color);
+    border-radius: 2rem;
+}
+.foot-social img {
+    width: 30px;
+    margin: 0.3rem 0.4rem;
+    margin-top: 0.6rem;  
+}
+
+.foot-categories {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.8rem 0;
+    padding: 0.8rem 2.4rem;
+}
+.foot-categories div {
+    width: 100%;
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+.foot-categories span {
+    padding-left: 0.8rem;
+}
+.foot-categories div:nth-child(1) {
+    border-left: solid 3px #C92387;
+}.foot-categories div:nth-child(2) {
+    border-left: solid 3px #FFBB00;
+}
+.foot-categories div:nth-child(3) {
+    border-left: solid 3px #218371;
+}
+.foot-categories div:nth-child(4) {
+    border-left: solid 3px #1476B8;
+}
+.foot-categories div:nth-child(5) {
+    border-left: solid 3px #CE3B3E;
+}
+.foot-categories div:nth-child(6) {
+    border-left: solid 3px #81439D;
+}
+.foot-categories div:nth-child(7) {
+    border-left: solid 3px #FF8D0A;
+}
+.foot-categories div:nth-child(8) {
+    border-left: solid 3px #17871D;
+}
+
+.foot-certifiers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+    width: 100%;
+}
+.foot_span {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+}
+.certifier {
+    display: flex;
+    
+}
+.certifier div {
+    width: 10rem;
+    height: 5rem;
+    
+}
+.certifier img {
+    width: 100%;
+}
+
+.foot-awards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+    width: 100%;
+}
+.awards-span {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+}
+.Award {
+    display: flex;
+}
+.Award div {
+    width: 10rem;
+    height: 5rem;
+    height: 100%;
+    width: 100%;
+}
+.Award div:nth-child(1) {
+    margin-top: 0.5rem;
+}
+
+.foo-mid_correo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.subscribe-texto {
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 1.4rem;
+}
+.subscribe-caja {
+    display: flex;
+      
+}
+.caja_formInput input {
+    background: transparent; 
+    border: 1px solid #0a8ecd;
+    border-radius: 0.5rem 0 0 0.5rem;
+    width: 20rem;
+    height: 5rem;
+}
+.caja_formInput input::placeholder {
+    font-size: 1.4rem;
+    color: var(--font-color);
+    font-weight: 600;
+}
+.caja-btn {
+    background-color: #0a8ecd;
+    border: 1px solid #0a8ecd;
+    color: var(--font-color);
+    height: 50px;
+    margin-bottom: 25px;
+    padding: 10px 1rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.footerContainer-button {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0.5rem;
+    width: 100%;
+    justify-content: center;
+}
+.MenuLayaut, .LanguageLayaut, .LoveLayout {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1.6rem;
+}
+.MenuLayaut span {
+    padding-right: 1.2rem;
+    font-size: 1.2rem;
+}
+.LangButton {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-right: 2rem;
+    border: 1px solid white;
+    width: 6.4rem;
+    height: 3.2rem;
+    justify-content: space-between;
+    padding: 0 0.8rem;
+    border-radius: 0.5rem;
+}
+.LangButton img {
+    border-radius: 3rem;
+}
+.LoveLayout {
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
